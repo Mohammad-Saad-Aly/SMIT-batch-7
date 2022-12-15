@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+
+
+    <script>
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyAJDmQTHEbaOg7dSt-xeb-087RUip6hsko",
+            authDomain: "test1-b3c0a.firebaseapp.com",
+            projectId: "test1-b3c0a",
+            storageBucket: "test1-b3c0a.appspot.com",
+            messagingSenderId: "571829512424",
+            appId: "1:571829512424:web:657e5421881758ff36415d",
+            measurementId: "G-QEQBBRVMVF"
+        };
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+</head>
+<style>
+    /* .kuch{
+        background-color: aqua;
+        width: 700px;
+        height: 700px;
+    } */
+</style>
+
+<body>
+    <!-- 
+    <div>
+        <img id="img1" src="https://wbuysell.com/images/2020/06/17/1677/honda-civic-x-2017-for-sale_1.jpg" width="200px" height="200px" alt="">
+        <h4 id="price">price : 45 lacs</h4>
+        <h4 id="model">Civic X</h4>
+        <button onclick="showitems()">Click </button>
+    </div><br>
+    <br>
+
+
+    <div class="kuch">
+        <img src="" id="img2" alt="">
+    <h4 id="cart-price"></h4>
+    <h4 id="cart-model"></h4>
+
+</div> -->
+
+
+    <input type="text" name="" id="name">
+    <br><br>
+    <input type="text" name="" id="roll">
+    <br><br>
+    <button onclick="sendData()">Send to Firebase</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
